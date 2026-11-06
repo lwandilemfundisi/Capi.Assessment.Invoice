@@ -1,6 +1,8 @@
-﻿namespace Capi.Assessment.Invoice.Api.Models.ResponseModels
+﻿using Capi.Assessment.Invoice.Api.Models.ResponseModels.Abstract;
+
+namespace Capi.Assessment.Invoice.Api.Models.ResponseModels
 {
-    public class GetInvoicesResponseModel
+    public class GetInvoicesResponseModel: ResponseModel
     {
         public IReadOnlyCollection<InvoiceModel> Invoices { get; set; }
     }

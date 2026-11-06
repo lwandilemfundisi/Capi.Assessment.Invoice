@@ -18,7 +18,7 @@ namespace Capi.Assessment.Invoice.Persistence
 
         public CapiInvoiceContext CreateContext()
         {
-            throw new NotImplementedException();
+            return new CapiInvoiceContext(_options);
         }
 
         #endregion

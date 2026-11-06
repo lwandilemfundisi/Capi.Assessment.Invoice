@@ -9,7 +9,7 @@ namespace Capi.Assessment.Invoice.Persistence.Extensions
 {
     public static class EntityFrameworkExtensions
     {
-        public static IDomainContainer ConfigureEventCatalogPersistence(
+        public static IDomainContainer ConfigureCapiAssessmentInvoicePersistence(
             this IDomainContainer domainContainer)
         {
             return domainContainer
